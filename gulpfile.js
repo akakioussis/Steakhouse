@@ -1,6 +1,15 @@
-function defaultTask(cb) {
-    // place code for your default task here
-    cb();
-}
+// function gulp(cb) {
 
-exports.default = defaultTask
+//     cb();
+// }
+
+// gulp.task('build', function () {
+//     gulp.src('./src')
+//         .pipe(gulp.dest('./dist'));
+// });
+const gulp = require('gulp')
+
+gulp.task('build', async function () {
+    gulp.src('./src/*')
+        .pipe(gulp.dest('./dist'));
+});

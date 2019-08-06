@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/akakioussis/Steakhouse/issues"
   },
-  "homepage": "https://github.com/akakioussis/Steakhouse#readme"
+  "homepage": "https://github.com/akakioussis/Steakhouse#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }

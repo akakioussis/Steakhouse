@@ -19,5 +19,8 @@
   "homepage": "https://github.com/akakioussis/Steakhouse#readme",
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-netlify": "^1.1.0"
   }
 }

@@ -79,7 +79,7 @@ typings/
 .vuepress/dist
 
 # Serverless directories
-.serverless/
+.serverless
 
 # FuseBox cache
 .fusebox/
@@ -87,4 +87,5 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+# boy
 .dist/

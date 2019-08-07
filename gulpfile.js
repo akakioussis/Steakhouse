@@ -10,6 +10,6 @@
 const gulp = require('gulp')
 
 gulp.task('build', async function () {
-    gulp.src('./src/*')
+    gulp.src('./src/**')
         .pipe(gulp.dest('./dist'));
 });

@@ -4,10 +4,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    --background: rgba(150, 175, 150, 0.336);
 }
 
 body {
     background: var(--background);
+    background-image: url(https://cdn.pixabay.com/photo/2015/06/24/13/31/barbecue-820010_960_720.jpg);
     text-align: center;
     position: fixed;
     z-index: 999%;
@@ -19,6 +21,9 @@ nav {
     text-align: left;
     top: 100%;
     left: 0;
+    background: var(--background);
+    width: 100%;
+    display: none;
 }
 
 nav ul {
@@ -30,4 +35,19 @@ nav ul {
 nav li {
     margin-bottom: 1em;
     margin-left: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+.nav-toggle:checked~nav {
+    display: block;
 }

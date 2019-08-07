@@ -49,10 +49,12 @@ a {
 
 .logo {
     margin: 0;
-    font-size: 1.25em;
+    font-size: 3em;
     text-transform: uppercase;
-    padding-left: 15em;
+    padding-left: 1em;
     font-style: normal;
+    font-family: 'Dancing Script', cursive;
+
 
 }
 
@@ -62,7 +64,7 @@ a {
 }
 
 .main-nav a:hover {
-    color: #718daa;
+    color: #ffffffe5;
 }
 
 

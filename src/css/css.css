@@ -8,6 +8,12 @@
     background-image: url("../assets/img/burgers-1839090_1920.jpg");
 }
 
+.container {
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+}
+
 li,
 a,
 button {
@@ -22,7 +28,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* padding: 30px 10%; */
+    padding: 30px 10%;
 }
 
 .logo {
@@ -36,7 +42,7 @@ header {
 
 .nav__links li {
     display: inline-block;
-    /* padding: 0px 20px; */
+    padding: 0px 20px;
 }
 
 .nav__links li a {

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
+body {
+    font-family: sans-serif;
+
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,12 +12,11 @@
 
 }
 
+
 .container {
     max-width: 1200px;
     width: 95%;
     margin: auto;
-
-
 }
 
 li,
@@ -26,36 +30,40 @@ button {
 }
 
 header {
-    min-height: 90vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
     background-image: url("../assets/img/burgers-1839090_1920.jpg");
+    height: 100vh;
+    /* display: flex; */
+    justify-content: flex-end;
+    /* align-items: center; */
+    padding: 3px 4%;
 }
 
-.logo {
+.navbar-left {
     cursor: pointer;
-    margin-right: auto;
+    /* margin-right: auto; */
+    m
 }
 
-.nav__links {
-    list-style: none;
+.navbar-right {
+    /* list-style: none; */
+    float: right;
+    /* padding-top: 1em; */
 }
 
-.nav__links li {
+.navbar-item {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.nav__links li a {
+.navbar-item a {
     transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover {
-    color: #0088a9
+.navbar-item a:hover {
+    color: #d16628
 }
 
+/* 
 button {
     margin-left: 20px;
     padding: 9px 25px;
@@ -68,4 +76,4 @@ button {
 
 button:hover {
     background-color: rgba(230, 115, 7, 0.8);
-}
+} */

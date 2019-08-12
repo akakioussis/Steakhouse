@@ -111,9 +111,34 @@ header {
 }
 
 .navbar-item a:hover {
-    color: #a90000
+    color: #ffffff
 }
 
 .navbar-item .is-primary {
     color: #0088a9;
 }
+
+/* button {
+    margin-left: 19em;
+    padding: 9px 25px;
+    /* background-color: rgb(201, 97, 12); */
+border: none;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+font-family: 'Ultra',
+serif;
+text-transform: uppercase;
+background: transparent;
+overflow: hidden;
+text-decoration: none;
+color: #ff8f0f;
+
+
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+
+}
+
+*/

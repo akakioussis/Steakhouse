@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Slabo 27px', serif;
     line-height: 1.5;
     margin: 0;
     overflow: hidden scroll;
@@ -16,8 +16,7 @@ body {
     max-width: 1200px;
     width: 95%;
     margin: auto;
-    /* max-width: 15em;
-    max-height: 15em; */
+
 }
 
 img {
@@ -54,7 +53,7 @@ img {
     float: left;
     padding: 5em;
     padding-top: 6em;
-    margin-left: 1em;
+    margin-left: 3em;
 }
 
 .navbar-item {
@@ -62,34 +61,36 @@ img {
     display: inline-block;
     text-transform: uppercase;
     font-size: 1.2em;
-    font-weight: 500;
-    font-size: 21px;
+    font-weight: 750;
+    font-size: 14px;
     color: #ffffff;
     text-decoration: none;
 }
 
 .navbar-item a {
-    /* color: darken($color-foreground, 25%);
-    transition: color $transition-type; */
+
     transition: all 0.3s ease 0s;
     text-decoration: none;
-    color: #ff9a02ec;
+    color: #ffa216d2;
     font-size: 22px;
-    font-weight: 750;
 }
 
 .section-title {
-    line-height: 3vh;
-    margin: 33;
-    padding: 33px;
+    font-family: 'Ultra', serif;
+    width: 100%;
+    line-height: 46vh;
     text-align: center;
     color: #ffffff;
     font-size: 21px;
-    font-size: 1.2em;
-    margin-right: 1.6em;
+    font-size: 3.4em;
     display: inline-block;
     font-weight: 500;
+    text-transform: uppercase;
+}
 
+.lineboy {
+    font-size: 14px;
+    color: #ffffffd7
 }
 
 header {
@@ -105,7 +106,6 @@ header {
 
 .navbar-item a:hover {
     color: #a90000
-        /* color: $color-primary; */
 }
 
 .navbar-item .is-primary {

@@ -1,80 +1,105 @@
-body {
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-* {
-    box-sizing: border-box;
+body {
+    font-family: "Montserrat", sans-serif;
+
+    /* background: $color-background;
+    color: $color-foreground; */
+    line-height: 1.5;
     margin: 0;
+    overflow: hidden scroll;
     padding: 0;
 
 }
 
-
 .container {
     max-width: 1200px;
-    /* width: 95%; */
-    /* margin: auto; */
+    width: 95%;
+    margin: auto;
+    /* max-width: 15em;
+    max-height: 15em; */
 }
 
-li,
-a,
-button {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #ebfaff;
-    text-decoration: none;
+img {
+    user-select: none;
+    width: 100%;
 }
 
-header {
-    background-image: url("../assets/img/burgers-1839090_1920.jpg");
-    height: 100vh;
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    /* align-items: center; */
-    padding: 3px 4%;
+.navbar {
+    /* background: transparent;
+    overflow: hidden;
+    display: inline; */
+    background-color: #f30b0b;
+}
+
+.navbar-logo {
+    cursor: pointer;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 15em;
+    max-height: 15em;
 }
 
 .navbar-left {
-    cursor: pointer;
-    margin: 0;
-    padding: 0px;
-
+    float: left;
+    padding: 1em;
+    margin-right: 20em;
 }
 
 .navbar-right {
-    padding: 10px;
-    margin: 10px;
-    /* list-style: none; */
-    float: right;
-    /* padding-top: 1em; */
+    float: left;
+    padding: 5em;
+    padding-top: 6em;
+    margin-left: 10em;
 }
 
 .navbar-item {
+    margin-right: 1.6em;
     display: inline-block;
-    padding: 0px 20px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-size: 21px;
+    color: #edf0f1;
+    text-decoration: none;
+    float: left;
 }
 
 .navbar-item a {
+    /* color: darken($color-foreground, 25%);
+    transition: color $transition-type; */
     transition: all 0.3s ease 0s;
+    text-decoration: none;
+
+
+}
+
+header {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.027),
+            rgba(17, 17, 17, 0.075)),
+        url("/src/assets/img/burgers-1839090_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    float: left;
 }
 
 .navbar-item a:hover {
-    color: #d16628
+    color: #0088a9
+        /* color: $color-primary; */
 }
 
-/* 
-button {
-    margin-left: 20px;
-    padding: 9px 25px;
-    background-color: rgb(204, 96, 29);
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+.navbar-item .is-primary {
+    color: #0088a9;
 }
-
-button:hover {
-    background-color: rgba(230, 115, 7, 0.8);
-} */

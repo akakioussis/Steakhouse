@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100;
+}
+
 body {
     line-height: 2.3;
     margin: 0;
@@ -18,11 +22,6 @@ body {
 
 }
 
-/* img {
-    user-select: none;
-    width: 100%;
-} */
-
 .navbar {
     background: transparent;
     overflow: hidden;
@@ -34,17 +33,8 @@ body {
 }
 
 
-/* img {
-    width: 100%;
-    height: 100%;
-    max-width: 55em;
-    max-height: 55em;
-
-} */
-
 .navbar-left {
     float: left;
-    /* padding: 0em; */
     margin-left: 9em;
     margin-right: 1em;
 
@@ -52,9 +42,7 @@ body {
 
 .navbar-right {
     float: left;
-    /* padding: 5em; */
     padding-top: 6em;
-    /* margin-right: 3em; */
 
 }
 
@@ -107,7 +95,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 85vh;
 }
 
 .navbar-item a:hover {
@@ -118,27 +106,41 @@ header {
     color: #0088a9;
 }
 
-/* button {
-    margin-left: 19em;
-    padding: 9px 25px;
-    /* background-color: rgb(201, 97, 12); */
-border: none;
-cursor: pointer;
-transition: all 0.3s ease 0s;
-font-family: 'Ultra',
-serif;
-text-transform: uppercase;
-background: transparent;
-overflow: hidden;
-text-decoration: none;
-color: #ff8f0f;
-
-
+.section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623),
+            rgba(255, 255, 255, 0.13)),
+        url("../assets/img/burgers-1839090_1920.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ultra', serif;
+    text-align: center;
 }
 
-button:hover {
-    background-color: rgb(255, 255, 255);
-
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.589),
+            rgba(255, 255, 255, 0.856)),
+        url("../assets/img/paper-1074131_1920.jpg");
+    border-radius: 5px;
+    height: 100vh;
+    margin-top: 0em;
+    margin: auto;
+    width: 100%
 }
 
-*/
+.menu-item {}
+
+.menu-item a {}

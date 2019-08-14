@@ -124,10 +124,6 @@ header {
 }
 
 .menu-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,6 +137,9 @@ header {
     width: 100%
 }
 
-.menu-item {}
+.menu-item {
+    display: flex;
+    width: 10%;
+}
 
 .menu-item a {}

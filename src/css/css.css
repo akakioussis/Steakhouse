@@ -79,8 +79,7 @@ img {
     max-height: 25em;
     margin: 0 auto;
     margin-top: 5em;
-    margin-bottom: -6em;
-
+    margin-bottom: -7em;
 }
 
 .navbar-logo {
@@ -111,9 +110,10 @@ img {
     font-size: 3em;
     font-weight: 500;
     font-family: 'Ultra', serif;
-    color: rgb(0, 0, 0);
+    color: rgba(201, 105, 15, 0.87);
     transition: all 1s;
     transition-timing-function: ease;
+    text-shadow: 2px 3px #180505;
 }
 
 

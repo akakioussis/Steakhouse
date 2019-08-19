@@ -61,11 +61,11 @@ img {
 
 .navbar-background {
 
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.623),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623),
             rgba(255, 255, 255, 0.13)),
         url("../assets/img/burgers-1839090_1920.jpg"); */
 
@@ -89,10 +89,11 @@ img {
 
 
 .navbar-top {
+
     padding: 0.1em;
     /* margin: 0 auto; */
-    margin-bottom: -4em;
-    /* margin-top: -10em; */
+    margin-bottom: -3em;
+    margin-top: -2.5sem;
     /* transition: all 1s;
     transition-timing-function: ease; */
 }
@@ -101,6 +102,13 @@ img {
     padding: 1em;
     transition: all 1s;
     transition-timing-function: ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623),
+            rgba(255, 255, 255, 0.13)),
+        url("../assets/img/burgers-1839090_1920.jpg");
 }
 
 .navbar-item {

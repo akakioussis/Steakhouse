@@ -92,14 +92,14 @@ img {
     padding: 1em;
     margin: 0 auto;
     margin-top: -10em;
-    transition: all 1s;
-    transition-timing-function: ease;
+    /* transition: all 1s;
+    transition-timing-function: ease; */
 }
 
 .navbar-bottom {
     padding: 1em;
-    transition: all 1s;
-    transition-timing-function: ease;
+    /* transition: all 1s;
+    transition-timing-function: ease; */
 }
 
 .navbar-item {
@@ -111,8 +111,8 @@ img {
     font-weight: 500;
     font-family: 'Ultra', serif;
     color: rgba(201, 105, 15, 0.87);
-    transition: all 1s;
-    transition-timing-function: ease;
+    /* transition: all 1s;
+    transition-timing-function: ease; */
     text-shadow: 2px 3px #180505;
 }
 

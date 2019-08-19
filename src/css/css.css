@@ -65,7 +65,7 @@ img {
     background-size: cover;
     background-attachment: fixed;
     background-image: linear-gradient(rgba(7, 7, 7, 0.829),
-            rgba(0, 0, 0, 0.288)),
+            rgba(0, 0, 0, 0.801)),
         url("../assets/img/burgers-1839090_1920.jpg")
 }
 
@@ -113,7 +113,7 @@ img {
     background-size: cover;
     background-attachment: fixed;
     background-image: linear-gradient(rgba(7, 7, 7, 0.829),
-            rgba(0, 0, 0, 0.288)),
+            rgba(0, 0, 0, 0.801)),
         url("../assets/img/burgers-1839090_1920.jpg");
 }
 

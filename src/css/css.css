@@ -60,14 +60,13 @@ img {
 }
 
 .navbar-background {
-
-    /* background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.623),
-            rgba(255, 255, 255, 0.13)),
-        url("../assets/img/burgers-1839090_1920.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.808),
+            rgba(0, 0, 0, 0.781)),
+        url("../assets/img/burgers-1839090_1920.jpg");
 
 }
 
@@ -93,7 +92,7 @@ img {
     padding: 0.1em;
     /* margin: 0 auto; */
     margin-bottom: -3em;
-    margin-top: -2.5em;
+    margin-top: -0.5em;
     /* transition: all 1s;
     transition-timing-function: ease; */
 }
@@ -106,8 +105,8 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.623),
-            rgba(255, 255, 255, 0.13)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.808),
+            rgba(0, 0, 0, 0.781)),
         url("../assets/img/burgers-1839090_1920.jpg");
 }
 
@@ -119,7 +118,7 @@ img {
     font-size: 1.5em;
     font-weight: 500;
     font-family: 'Ultra', serif;
-    color: rgba(201, 105, 15, 0.87);
+    color: rgb(228, 115, 10);
     transition: all 1s;
     transition-timing-function: ease;
     text-shadow: 2px 3px #180505;
@@ -132,8 +131,8 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.623),
-            rgba(255, 255, 255, 0.13)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.11),
+            rgba(0, 0, 0, 0.034)),
         url("../assets/img/burgers-1839090_1920.jpg");
 }
 

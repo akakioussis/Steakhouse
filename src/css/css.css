@@ -10,7 +10,7 @@ body {
     margin: 0;
     overflow: hidden scroll;
     padding: 0;
-
+    background-color: rgb(0, 0, 0);
 }
 
 img {
@@ -18,38 +18,10 @@ img {
     height: 100%;
 }
 
-
-/* .navbar .container {
-    justify-content: center;
-} */
-
-/* .navbar {
-    background: transparent;
-    overflow: hidden;
-    display: inline;
-} */
-
-/* .navbar-right {} */
-
-/* .navbar-item {
-    transition: all 1s;
-    transition-timing-function: ease-in-out;
-    border: 3px solid green;
-    padding: 10px;
-    font-family: 'Ultra', serif;
-    text-transform: uppercase;
-    float: left;
-    justify-content: center;
-    margin-top: 6.23em;
-    display: inline;
-
-} */
-
 .container {
     max-width: 1200px;
     width: 95%;
     margin: auto;
-    /* background-color: #fff; */
 
 }
 
@@ -67,7 +39,9 @@ img {
     background-attachment: fixed;
     background-image: linear-gradient(rgba(7, 7, 7, 0.829),
             rgba(0, 0, 0, 0.801)),
-        url("../assets/img/burgers-1839090_1920.jpg")
+        url("../assets/img/burgers-1839090_1920.jpg");
+    transition: all 1s;
+    transition-timing-function: ease;
 }
 
 .navbar-logo {
@@ -81,27 +55,17 @@ img {
     max-width: 12em;
     max-height: 12em;
     margin: 0 auto;
-    /* margin-top: 5em; */
-    /* margin-bottom: -7em; */
-    /* border-radius: 100px; */
     background-color: #00000000;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.493),
-            rgb(0, 0, 0)),
-        url("../assets/img/burgers-1839090_1920.jpg"); */
 }
 
 .navbar-top {
-
     padding: 0.1em;
-    /* margin: 0 auto; */
     margin-bottom: -5em;
     margin-top: -1.2em;
-    /* transition: all 1s;
-    transition-timing-function: ease; */
 }
 
 .navbar-bottom {
@@ -116,24 +80,45 @@ img {
     background-image: linear-gradient(rgba(7, 7, 7, 0.829),
             rgba(0, 0, 0, 0.801)),
         url("../assets/img/burgers-1839090_1920.jpg");
+
 }
 
 .navbar-item {
-    /* margin-left: 1em; */
-    padding: 15px;
+    padding: 19px;
     display: inline-block;
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: 500;
     font-family: 'Ultra', serif;
-    color: rgb(228, 115, 10);
+    color: rgb(218, 128, 44);
     transition: all 1s;
     transition-timing-function: ease;
     text-shadow: 3px 3px #180505;
 }
 
+.slogan {
+    /* transition: all 1s;
+    transition-timing-function: ease; */
+    /* display: inline-block; */
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 500;
+    font-family: 'Ultra', serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px #0c0702dc;
+    /* margin-top: 7.9em; */
+    /* padding: 0.4em;
+    padding-top: 1em; */
+    display: inline-block;
+    text-align: center;
+    padding-left: 2em;
+    margin-top: 11em;
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+}
 
 .header {
+    /* border-top-left-radius: 300px; */
     height: 75vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,76 +127,103 @@ img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.11),
             rgba(0, 0, 0, 0.637)),
         url("../assets/img/burgers-1839090_1920.jpg");
-
+    /* border-bottom-left-radius: 300px; */
+    transition: all 1s;
+    transition-timing-function: ease;
 }
 
-.slogan {
-    display: inline-block;
+.inbetweener {
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 500;
     font-family: 'Ultra', serif;
-    color: rgb(255, 255, 255);
-    text-shadow: 4px 3px #0c0702dc;
-    margin-top: 7.9em;
-    /* margin-right: 15em; */
-    padding: 0.4em;
-    padding-top: 1em;
+    color: rgba(156, 93, 35, 0.979);
+    text-shadow: 4px 3px #ff000017;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+    transition: all 1s;
+    transition-timing-function: ease;
 }
 
 .section {
+    transition: all 1s;
+    transition-timing-function: ease;
+    border-top-left-radius: 300px;
     height: 110vh;
     background-color: rgb(0, 0, 0);
     width: 100%;
-    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgb(0, 0, 0),
+            rgba(0, 0, 0, 0.315)),
+        url("../assets/img/burninggrill.jpg");
 }
 
 .section-content {
-    height: 100%;
-    /* display: flex; */
-    /* display: block; */
-    /* flex-direction: row; */
-    /* float: left; */
-    /* margin-top: 2.8em; */
+    margin-top: 0.5em;
+    padding-top: 1em;
     width: 100%;
-    height: 100%;
-    /* display: inline; */
-    text-transform: uppercase;
+    /* text-transform: uppercase;
     font-size: 3em;
     font-weight: 500;
-    font-family: 'Ultra', serif;
+    font-family: 'Ultra', serif; */
     color: rgb(250, 250, 250);
-    background-color: rgba(134, 98, 98, 0.349);
-    height: 80vh;
-    /* justify-content: flex-start; */
-    /* align-items: center; */
-    /* justify-content: space-around; */
-    /* justify-content: center; */
-    /* flex-direction: row;
-    flex-wrap: nowrap; */
+    /* background-color: rgba(134, 98, 98, 0.61); */
+    height: 100vh;
 }
 
-.section-title {
-    /* display: inline-block; */
-    text-transform: uppercase;
-    font-size: 3em;
-    font-weight: 500;
-    font-family: 'Ultra', serif;
-    color: rgb(250, 250, 250);
-}
 
-.image-row {
+.image-row1 {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    /* padding: 30px;
-    margin: 20px; */
-    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: rgb(0, 0, 0);
+    /* width: 100%; */
+    height: 50%;
+}
 
-    /* display: flex; */
-    /* float: left; */
-    /* flex-direction: row; */
-    /* flex-wrap: nowrap; */
+.images {
+    width: 100%;
+}
+
+.image1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.26),
+            rgba(0, 0, 0, 0.048)),
+        url("../assets/img/ribsonfire.jpg");
+}
+
+.image2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.26),
+            rgba(0, 0, 0, 0.048)),
+        url("../assets/img/ingredients.jpg");
+}
+
+.image3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.26),
+            rgba(0, 0, 0, 0.048)),
+        url("../assets/img/steakonfire.jpg");
+}
+
+.underimage-text {
+    font-size: 1em;
+    font-weight: 500;
+    /* font-family: 'Ultra', serif; */
+    background-color: #180505;
+    height: 30vh;
+
 }
 
 /*////////////////////////*/

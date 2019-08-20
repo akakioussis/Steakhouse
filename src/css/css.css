@@ -223,10 +223,13 @@ img {
     /* font-family: 'Ultra', serif; */
     background-color: #180505;
     height: 30vh;
-
 }
 
+
+
 /*////////////////////////*/
+
+
 
 /* 
 @media only screen and (max-width:800px) {
@@ -253,17 +256,9 @@ img {
 
     }
 } */
-/* 
-@media only screen and (max-width: $max-width-mobile) {
-    .columns {
-      display: block;
+
+/* @media only screen and (max-width: 700px) {
+    .slogan {
+        display: none;
     }
-  
-    .column {
-      display: block;
-    }
-  
-    .mobile-only {
-      display: block;
-    }
-  } */
+} */
